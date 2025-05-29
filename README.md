@@ -5,7 +5,7 @@ Anggota Kelompok:
 - Cal NRP 60
 
 Struktur Folder Proyek di VS Code:
-
+```
 BigDataTaxiFare/
 ├── dataset_source/
 │   └── train.csv         <-- TEMPATKAN FILE DATASET DI SINI
@@ -17,7 +17,7 @@ BigDataTaxiFare/
 ├── spark_trainer.py
 ├── api.py
 └── requirements.txt      
-
+```
 Beberapa Data Batches ada disini: https://drive.google.com/drive/folders/19JQdQyY2JsZSizAFaaPBZn_iNfAluH5L?usp=sharing
 Dataset yang digunakan (taruh di train.csv): https://www.kaggle.com/c/new-york-city-taxi-fare-prediction/data
 
