@@ -97,12 +97,20 @@ Pembuatan topic
 ![image](https://github.com/user-attachments/assets/643e59e0-7b38-442e-8ad2-ad707b6cdb5b)
 
 producer.py
-![image](https://github.com/user-attachments/assets/168c325a-19a7-46cf-94b1-d992980359af)
+![Screenshot (635)](https://github.com/user-attachments/assets/72dc70bc-8824-4431-a98f-5fb339215917)
+
 
 consumer.py
-![image](https://github.com/user-attachments/assets/886717e7-7f14-4822-8fa5-9b2056318281)
+![Screenshot (633)](https://github.com/user-attachments/assets/a122276c-34a5-43d0-bcdf-19715c005540)
 
-isi salah satu batch
-![image](https://github.com/user-attachments/assets/daab7d92-ce41-4fd8-b346-0ebc8dbb5b33)
+spark_trainer.py
+![Screenshot (636)](https://github.com/user-attachments/assets/24f2a14c-5793-4752-88b9-4cd03ddc1f24)
+
+api.py
+![Screenshot (637)](https://github.com/user-attachments/assets/20dbb963-3bf7-4d31-9045-fa5c9222759b)
+
+test sambungan ke localhost
+![image](https://github.com/user-attachments/assets/43a75ab8-2025-4a32-b932-50a15d8019c2)
+
 
 
