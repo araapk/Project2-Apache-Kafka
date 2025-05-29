@@ -18,7 +18,7 @@ BigDataTaxiFare/
 ├── api.py
 └── requirements.txt      
 ```
-- Beberapa Data Batches ada disini: https://drive.google.com/drive/folders/19JQdQyY2JsZSizAFaaPBZn_iNfAluH5L?usp=sharing
+- Download folder2 yang ada disini: https://drive.google.com/drive/folders/1K6VFdss7i74kDlITbPmRYDKJjVb0njUa?usp=sharing
 - Dataset yang digunakan (taruh di train.csv): https://www.kaggle.com/c/new-york-city-taxi-fare-prediction/data
 
 Persiapan environment:
