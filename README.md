@@ -1,8 +1,8 @@
 # Project2-Apache-Kafka
 Anggota Kelompok:
-- Rafika NRP
-- Tika NRP
-- Cal NRP 60
+- Rafika Az Zahra Kusumastuti  (5027231050)
+- Callista (5027231060)
+- Nisrina Atiqah (5027231075)
 
 Struktur Folder Proyek di VS Code:
 ```
@@ -68,6 +68,7 @@ docker ps
 docker exec -it kafka kafka-topics --create --topic taxi_fare_topic --bootstrap-server localhost:9092 --partitions 1 --replication-factor 1
 ```
 4. Jalankan Consumer: (Di terminal VS Code, venv aktif)
+File `consumer.py` berfungsi untuk melaksanakan bagian kafka consumer membaca data yang ada di dalam Kafka server dan akan menyimpan data yang diterima dalam bentuk batch. Untuk menjalankannya gunakan command berikut.
 ```
 python consumer.py
 ```
