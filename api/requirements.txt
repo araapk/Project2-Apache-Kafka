@@ -1,0 +1,5 @@
+# File: api/requirements.txt
+
+pyspark==3.5.0  # Sesuaikan dengan versi Spark yang kamu gunakan
+flask==3.0.0
+numpy==1.26.4

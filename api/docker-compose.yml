@@ -1,0 +1,26 @@
+# File: api/docker-compose.yml
+
+version: '3.8'
+
+services:
+  api:
+    # Build image menggunakan Dockerfile di direktori ini (.)
+    build: .
+    container_name: taxi_fare_api_service
+    ports:
+      # Map port 8080 di komputermu ke port 5001 di dalam container
+      # Port 5001 adalah port tempat Flask berjalan (sesuai api.py)
+      - "8080:5001"
+    volumes:
+      # Ini adalah bagian KUNCI!
+      # Menghubungkan folder 'models' dari direktori induk (../models)
+      # ke folder '/app/models' di dalam container.
+      # API kita akan membaca model dari /app/models
+      - ../models:/app/models:ro # 'ro' artinya read-only, lebih aman
+    environment:
+      # Set beberapa environment variable untuk PySpark di dalam container
+      - SPARK_MODE=local
+      - SPARK_RPC_AUTHENTICATION_ENABLED=no
+      - SPARK_RPC_ENCRYPTION_ENABLED=no
+      - SPARK_LOCAL_STORAGE_ENCRYPTION_ENABLED=no
+      - SPARK_SSL_ENABLED=no

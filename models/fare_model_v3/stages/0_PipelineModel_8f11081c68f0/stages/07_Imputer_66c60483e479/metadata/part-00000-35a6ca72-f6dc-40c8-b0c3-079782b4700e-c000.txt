@@ -1,0 +1,1 @@
+{"class":"org.apache.spark.ml.feature.ImputerModel","timestamp":1748522633501,"sparkVersion":"4.0.0","uid":"Imputer_66c60483e479","paramMap":{"inputCol":"month","outputCol":"month_imputed","strategy":"mean"},"defaultParamMap":{"relativeError":0.001,"outputCol":"Imputer_66c60483e479__output","missingValue":"NaN","strategy":"mean"}}

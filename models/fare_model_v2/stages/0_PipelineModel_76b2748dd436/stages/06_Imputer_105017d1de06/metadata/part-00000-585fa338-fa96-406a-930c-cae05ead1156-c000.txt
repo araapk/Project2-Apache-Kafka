@@ -1,0 +1,1 @@
+{"class":"org.apache.spark.ml.feature.ImputerModel","timestamp":1748522475166,"sparkVersion":"4.0.0","uid":"Imputer_105017d1de06","paramMap":{"inputCol":"day_of_week","strategy":"mean","outputCol":"day_of_week_imputed"},"defaultParamMap":{"relativeError":0.001,"strategy":"mean","outputCol":"Imputer_105017d1de06__output","missingValue":"NaN"}}

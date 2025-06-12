@@ -1,0 +1,1 @@
+{"class":"org.apache.spark.ml.feature.ImputerModel","timestamp":1748522632473,"sparkVersion":"4.0.0","uid":"Imputer_2723fe38c0a2","paramMap":{"outputCol":"passenger_count_imputed","inputCol":"passenger_count","strategy":"mean"},"defaultParamMap":{"outputCol":"Imputer_2723fe38c0a2__output","relativeError":0.001,"strategy":"mean","missingValue":"NaN"}}

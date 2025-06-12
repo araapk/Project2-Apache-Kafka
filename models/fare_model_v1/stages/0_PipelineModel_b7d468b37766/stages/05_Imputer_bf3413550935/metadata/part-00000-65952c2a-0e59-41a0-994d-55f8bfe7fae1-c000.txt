@@ -1,0 +1,1 @@
+{"class":"org.apache.spark.ml.feature.ImputerModel","timestamp":1748522349353,"sparkVersion":"4.0.0","uid":"Imputer_bf3413550935","paramMap":{"outputCol":"hour_imputed","inputCol":"hour","strategy":"mean"},"defaultParamMap":{"outputCol":"Imputer_bf3413550935__output","strategy":"mean","relativeError":0.001,"missingValue":"NaN"}}

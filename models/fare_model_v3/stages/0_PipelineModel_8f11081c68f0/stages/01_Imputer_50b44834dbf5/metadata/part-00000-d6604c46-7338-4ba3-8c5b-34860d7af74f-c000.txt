@@ -1,0 +1,1 @@
+{"class":"org.apache.spark.ml.feature.ImputerModel","timestamp":1748522631600,"sparkVersion":"4.0.0","uid":"Imputer_50b44834dbf5","paramMap":{"outputCol":"pickup_latitude_imputed","strategy":"mean","inputCol":"pickup_latitude"},"defaultParamMap":{"outputCol":"Imputer_50b44834dbf5__output","strategy":"mean","relativeError":0.001,"missingValue":"NaN"}}

@@ -1,0 +1,1 @@
+{"class":"org.apache.spark.ml.feature.ImputerModel","timestamp":1748522350283,"sparkVersion":"4.0.0","uid":"Imputer_8d5d3cbeafa9","paramMap":{"outputCol":"distance_km_imputed","inputCol":"distance_km","strategy":"mean"},"defaultParamMap":{"missingValue":"NaN","outputCol":"Imputer_8d5d3cbeafa9__output","relativeError":0.001,"strategy":"mean"}}

@@ -1,0 +1,1 @@
+{"class":"org.apache.spark.ml.feature.ImputerModel","timestamp":1748522631308,"sparkVersion":"4.0.0","uid":"Imputer_f2cd6d8e6de3","paramMap":{"strategy":"mean","outputCol":"pickup_longitude_imputed","inputCol":"pickup_longitude"},"defaultParamMap":{"relativeError":0.001,"strategy":"mean","outputCol":"Imputer_f2cd6d8e6de3__output","missingValue":"NaN"}}
