@@ -1,5 +1,3 @@
-# File: api/api.py (Versi Upgrade)
-
 import os
 from flask import Flask, request, jsonify
 from pyspark.sql import SparkSession
